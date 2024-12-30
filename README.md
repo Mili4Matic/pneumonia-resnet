@@ -2,7 +2,7 @@
 
 This project demonstrates how to detect pneumonia from chest X-ray images using a Transfer Learning approach with ResNet50. 
 
-> **Note**: The `data/chest_xray` folder may be too large for GitHub if it contains the entire dataset. Instead, download it from https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia.
+> **Note**: The `data/chest_xray` folder may be too large for GitHub if it contains the entire dataset, uploaded images are samples of the dataset. Instead, download it from https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia.
 > 
 ## Features
 - Two-phase training: head-only, then fine-tuning.
