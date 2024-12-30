@@ -47,5 +47,5 @@ Run Inference
 
 Results
 
-    With 10 epochs on head + 10 epochs fine-tuning, we achieved ~85% accuracy (example).
+    With 10 epochs on head + 10 epochs fine-tuning, we achieved ~71% accuracy.
     For best results, try adjusting epochs, data augmentation, and the number of unfrozen layers.
