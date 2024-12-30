@@ -25,4 +25,27 @@ pneumonia-resnet/
       └── test/  
 └── models/  
       └── pneumonia_resnet50_tf25.h5  
- 
+
+        
+Usage
+
+    Download/Place Data
+        Download chest_xray from [Kaggle Link] into data/chest_xray.
+        Ensure you have train/, val/, test/ subdirectories.
+
+    Train the model
+
+python pneumonia_train.py
+
+    This will produce pneumonia_resnet50_tf25.h5 in models/ (or current folder).
+
+Run Inference
+
+    python pneumonia_infer.py /path/to/chest_xray/test/NORMAL/IM-0001.jpg
+
+        Outputs whether it’s pneumonia or normal with a probability.
+
+Results
+
+    With 10 epochs on head + 10 epochs fine-tuning, we achieved ~85% accuracy (example).
+    For best results, try adjusting epochs, data augmentation, and the number of unfrozen layers.
