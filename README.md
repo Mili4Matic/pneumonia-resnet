@@ -20,11 +20,11 @@ pneumonia-resnet/
 ├── pneumonia_test.py (inference test)  
 ├── data/  
 │ └── chest_xray/ │  
-      ├── train/ │  
-      ├── val/ │  
-      └── test/  
+│     ├── train/ │  
+│     ├── val/ │  
+│     └── test/  
 └── models/  
-      └── pneumonia_resnet50_tf25.h5  
+│      └── pneumonia_resnet50_tf25.h5  
 
         
 Usage
