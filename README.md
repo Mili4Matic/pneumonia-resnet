@@ -7,17 +7,18 @@ This project demonstrates how to detect pneumonia from chest X-ray images using 
 - Accuracy and loss plots with Matplotlib.
 - Inference script for single-image prediction.
 
-## Repository Structure
-pneumonia-resnet/
-├── README.md
-├── .gitignore
-├── requirements.txt
-├── pneumonia_train.py (training script)
-├── pneumonia_infer.py (inference script)
-├── data/
-    │ └── chest_xray/ │
-          ├── train/ │
-          ├── val/ │
-          └── test/
-    └── models/
-          └── pneumonia_resnet50_tf25.h5
+## Repository Structure  
+pneumonia-resnet/  
+├── README.md  
+├── .gitignore  
+├── requirements.txt  
+├── pneumonia_train.py (training script)  
+├── pneumonia_infer.py (inference script)  
+├── data/  
+    │ └── chest_xray/ │  
+          ├── train/ │  
+          ├── val/ │  
+          └── test/  
+    └── models/  
+          └── pneumonia_resnet50_tf25.h5  
+ 
