@@ -15,10 +15,10 @@ pneumonia-resnet/
 ├── pneumonia_train.py (training script)  
 ├── pneumonia_infer.py (inference script)  
 ├── data/  
-    │ └── chest_xray/ │  
-          ├── train/ │  
-          ├── val/ │  
-          └── test/  
-    └── models/  
-          └── pneumonia_resnet50_tf25.h5  
+      │ └── chest_xray/ │  
+            ├── train/ │  
+            ├── val/ │  
+            └── test/  
+      └── models/  
+            └── pneumonia_resnet50_tf25.h5  
  
