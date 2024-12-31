@@ -1,6 +1,9 @@
 # Pneumonia Detection with ResNet50
 
-This project demonstrates how to detect pneumonia from chest X-ray images using a Transfer Learning approach with ResNet50. 
+This project demonstrates how to detect pneumonia from chest X-ray images using a Transfer Learning approach with ResNet50, and presented at ReadyTensor Computer Vision Projects Expo 2024 Competition.
+
+ReadyTensor Article Link: https://app.readytensor.ai/publications/pneumonia_detection_on_chest_x-ray_with_resnet50_Rz0uN88sFpi3
+
 
 > **Note**: The `data/chest_xray` folder may be too large for GitHub if it contains the entire dataset, uploaded images are samples of the dataset. Instead, download it from https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia.
 > 
