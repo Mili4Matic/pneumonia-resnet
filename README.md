@@ -40,11 +40,11 @@ Usage
 
 python pneumonia_train.py
 
-    This will produce pneumonia_resnet50_tf25.h5 in models/ (or current folder).
+    This will produce pneumonia_resnet50.h5 in models/ (or current folder).
 
 Run Inference
 
-    python pneumonia_infer.py /path/to/chest_xray/test/NORMAL/IM-0001.jpg
+    python pneumonia_test.py /path/to/chest_xray/test/NORMAL/IM-0001.jpg
 
         Outputs whether it’s pneumonia or normal with a probability.
 
